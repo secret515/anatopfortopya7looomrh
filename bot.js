@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
    var prefix = "!!";
 var cats = [
-"https://cdn.discordapp.com/attachments/443574047851413507/480740286629281792/image0.jpg"
+"https://cdn.discordapp.com/attachments/443574047851413507/480740286629281792/image0.jpg",
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
 "https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg",
 "http://www.i-love-cats.com/images/2015/04/12/cat-wallpaper-38.jpg",
