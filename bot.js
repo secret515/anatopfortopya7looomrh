@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 ///hug
 client.on('message', message => {
- if(message.content.startsWith(prefix + 'hug')) {
+ if(message.content.startsWith(** + 'hug')) {
    let args = message.content.split(" ").slice(1);
     let hug = [
         "https://78.media.tumblr.com/28e86413485a973ae859a745a7a5382e/tumblr_o1hf0uK2NL1uapp8co1_500.gif",
@@ -56,7 +56,7 @@ client.on('message', message => {
 
 ///kiss
 client.on('message', message => {
- if(message.content.startsWith(prefix + "kiss")) {
+ if(message.content.startsWith(** + "kiss")) {
    let args = message.content.split(" ").slice(1);
     let hug = [
         "https://media.giphy.com/media/KH1CTZtw1iP3W/giphy.gif",
