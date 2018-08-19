@@ -39,6 +39,15 @@ const secre = [
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
     }
+   
+   
+    client.on('message', message => {
+     if (message.content === ! +"help") {
+    const embed = new Discord.RichEmbed()
+     .setColor("RANDOM")
+     .addField(`Zyad,aLmutairi commands:
+   
+   
 });
 
 // THIS  MUST  BE  THIS  WAY
