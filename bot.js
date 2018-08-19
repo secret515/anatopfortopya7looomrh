@@ -64,3 +64,12 @@ const x5bz4 = [
    message.react("??")
   }
 });
+
+
+   
+});
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
+
+///end
