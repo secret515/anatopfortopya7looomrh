@@ -42,7 +42,7 @@ const secre = [
    
    
 client.on('message', message => {
-     if (message.content === prefix +"help") {
+     if (message.content === ! +"help") {
     const embed = new Discord.RichEmbed()
      .setColor("RANDOM")
      .addField(`Zyad,aLmutairi commands:
