@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 ///hug
 client.on('message', message => {
- if(message.content.startsWith(** + 'hug')) {
+ if(message.content.startsWith('hug')) {
    let args = message.content.split(" ").slice(1);
     let hug = [
         "https://78.media.tumblr.com/28e86413485a973ae859a745a7a5382e/tumblr_o1hf0uK2NL1uapp8co1_500.gif",
@@ -56,7 +56,7 @@ client.on('message', message => {
 
 ///kiss
 client.on('message', message => {
- if(message.content.startsWith(** + "kiss")) {
+ if(message.content.startsWith('kiss')) {
    let args = message.content.split(" ").slice(1);
     let hug = [
         "https://media.giphy.com/media/KH1CTZtw1iP3W/giphy.gif",
@@ -111,7 +111,7 @@ client.on('message', message => {
 
 ///slap
 client.on('message', message => {
- if(message.content.startsWith(prefix + 'slap')) {
+ if(message.content.startsWith( 'slap' )) {
    let args = message.content.split(" ").slice(1);
     let hug = [
         "https://cdn.discordapp.com/attachments/466949822604247044/467005787189805066/Slap_6.gif",
